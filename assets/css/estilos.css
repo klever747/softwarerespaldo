@@ -1,0 +1,188 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/08/2020, 8:09:36
+    Author     : Agrinag
+*/
+
+.login-page {
+    background-color: black;
+}
+.no_padding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.ajustar_altura {
+    height: calc(2.25rem + 2px);
+    margin-left: 0 !important;
+    padding-left: 7px !important;
+}
+/********************* AJUSTES BOOTSTRAP ***********************/
+.select2-selection {
+    height: calc(2.25rem + 2px) !important;
+    padding: 0.25em !important;
+}
+
+.login-page .copyright {
+    color:white;
+}
+.copyright {
+    text-align: center;
+    margin: 1 auto;
+}
+
+
+/********************* PAGINACION **************************/
+/***********************************************************/
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+/***********************************************************/
+/***********************************************************/
+
+
+label {
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0.25em;
+}
+
+.form-group {
+    padding-top: 0 !important;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em !important;
+    margin-top: 1em !important;
+}
+
+.input-group-prepend {
+    margin-left: 7px;
+}
+
+/***********************************************************/
+/***********************************************************/
+.card-body.card-busqueda {
+    background-color: gray;
+    padding-top: 1em;
+}
+
+.input-group-prepend {
+    /*width: 3em;*/
+}
+
+@media (max-width: 750px) {
+    .form-group {
+        margin-top: 0 !important;
+    }
+    .filtro_busqueda_general {
+        margin: 1em 0 !important;        
+    }
+}
+
+.filtro_busqueda_general {
+    padding-left: 0 !important;        
+}
+
+.p-2 {
+    margin-right: 0.25em;
+}
+
+
+/*******************************************************/
+.card-title {
+    margin-right: 1em;
+}
+
+#modalEdicionOrden .card-title {
+    margin-right: 1em;
+    width: 80%;
+}
+
+/***************************************/
+/************ Menu de Navegacion ********/
+.nav-sidebar .nav-treeview > .nav-item > .nav-link > .nav-icon {
+    padding-left: 0.5em;
+}
+
+/************************** CONFIGURACION ******************/
+.cmp_configuracion{
+    background-color: #73797f;
+    margin: 1em auto; 
+    border: #3300cc solid 1px;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+
+/***************** FLOAT BUTTON ********************/
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#0C9;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+    margin-top:6px;
+}
+
+/************************** ***********************/
+.input-group-text-modal-edicion {
+    text-ajustify-content: end;
+}
+
+
+.color_par{
+    background-color: grey !important;
+}
+.color_impar{
+    background-color: aqua !important;
+}
+
+/*.card-orden-item {
+    background-color: lightgrey !important;
+}*/
+
+/*.card-orden-item .card-orden-item-header .card-tools{
+    float: right;
+    margin-right: -.625rem;
+}*/
+
+
+
+#orden_detalle_item_propiedades{
+    /*background-color: #317c5b !important;*/
+}
+#orden_detalle_item_propiedades .card-header{
+    /*background-color: #317c5b !important;*/
+}
